@@ -1,13 +1,15 @@
 import React from "react"
 
+
+
 class Home extends React.Component {
   state = {
-    greeting: "Hello World!"
+    greeting: "Home Page"
   }
   render () {
     return (
-      <div>
-        {this.state.greeting}
+      <div className='home'>
+        <h1>{this.state.greeting}</h1>
       </div>
     );
   }

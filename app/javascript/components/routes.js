@@ -1,17 +1,27 @@
 import React from "react"
+
 import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Link
+  Link,
 } from 'react-router-dom'
 
 import Home from '../pages/Home'
+import About from '../pages/About'
+import NavBar from "./NavBar";
 
-const routes = () => {
-  return <Router>
-    <Route path='/' exact component={Home}/>
-  </Router>
+const Routes = () => {
+  return <div>
+    <NavBar />
+    <Router>
+      <Switch>
+        <Route path='/' exact component={Home}/>
+        <Route path='/about' exact component={About}/>
+        {/* <Route path='/' component={NotFound} /> */}
+      </Switch>
+    </Router>
+  </div>
 }
 
-export default routes
+export default Routes
