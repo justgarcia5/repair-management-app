@@ -47,6 +47,14 @@ a {
   color: white;
 }
 
+.login-register {
+  color: #FBFFC9;
+}
+
+.sign-out {
+  color: #CCC0B9;
+}
+
 .logo-container {
   margin: -40px auto auto 0%;
   text-align: left;
