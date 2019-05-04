@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client_name: MyString
+  client_phone: 1
+  client_phone_2: 1
+  job_description: 
+  make: MyString
+  model: MyString
+  model_year: 1
+  parts_list: 
+  parts_ordered: false
+  start_date: MyString
+  repair_started: false
+  mechanics: 
+  completed: false
+  date_arrived: MyString
+  paid: false
+  approval: false
+
+two:
+  client_name: MyString
+  client_phone: 1
+  client_phone_2: 1
+  job_description: 
+  make: MyString
+  model: MyString
+  model_year: 1
+  parts_list: 
+  parts_ordered: false
+  start_date: MyString
+  repair_started: false
+  mechanics: 
+  completed: false
+  date_arrived: MyString
+  paid: false
+  approval: false
