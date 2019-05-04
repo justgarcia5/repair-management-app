@@ -2,31 +2,17 @@ import React from 'react'
 
 class AllJobs extends React.Component {
   state = {
-    clients: [
-      {
-        name: 'Justin',
-        phone: '444-444-4444',
-        phone2: '555-555-5555',
-        make: 'Toyota',
-        model: 'Tacoma',
-        year: 2000,
-        jobDescription: 'head gasket',
-        estimate: '2,330',
-        partsList: 'n/a',
-        partsOrdered: false,
-        startDate: '4-4-2019',
-        started: false,
-        completed: false,
-        paid: false,
-      }
-    ]
+    clients: []
   }
 
-  // componentDidMount = (e) => {
-  //   const client = this.state.clients[e.target.value]
+  componentDidMount = () => {
+    fetch('/clients.json')
+    .then((response) => response.json())
+    .then((clients) => {
+      this.setState({clients: clients})
+    })
+  }
 
-
-  // }
   render () {
     return (
       <div>

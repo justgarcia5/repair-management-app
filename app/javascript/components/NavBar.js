@@ -15,6 +15,7 @@ const NavBar = () => {
             <a href='/'><li className='navi-element'>Home</li></a>
             <a href='/about'><li className='navi-element'>About</li></a>
             <a href='/all_jobs'><li className='navi-element'>Jobs</li></a>
+            <a href='/job'><li className='navi-element'>Add Job</li></a>
             <a href="/users/sign_out" rel="nofollow" data-method="delete"><li className="navi-element sign-out"><b>Sign Out</b></li></a>
           </ul>
         {/* }

@@ -9,6 +9,7 @@ import {
 import Home from '../pages/Home'
 import About from '../pages/About'
 import AllJobs from '../pages/AllJobs'
+import Job from '../pages/Job'
 
 const AuthenticatedApp = () => {
   return <div>
@@ -19,6 +20,7 @@ const AuthenticatedApp = () => {
             <Route path='/' exact component={Home}/>
             <Route path='/about' exact component={About}/>
             <Route path='/all_jobs' exact component={AllJobs}/>
+            <Route path='/job' exact component={Job}/>
           </Switch>
         </Router>
       </div>
