@@ -11,8 +11,10 @@ const NavBar = () => {
         </a>
       </div>
       <ul className="navi-items" id="nav-menu">
-        <a href='/' className='navi-element'><li>Home</li></a>
-        <a href='/about' className='navi-element'><li>About</li></a>
+        <a href='/'><li className='navi-element'>Home</li></a>
+        <a href='/about'><li className='navi-element'>About</li></a>
+        <a href="/users/sign_in"><li className="navi-element">Sign In</li></a>
+        <a href="/users/sign_up"><li className="navi-element login-register">Join</li></a>
       </ul>
     </div>
   </div>
