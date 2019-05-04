@@ -18,7 +18,6 @@ class UnauthenticatedApp extends React.Component {
           <Switch>
             <Route path='/' exact component={Home}/>
             <Route path='/about' exact component={About}/>
-            <Route path='/user_sign' component={NotFound} />
           </Switch>
         </Router>
       </div>
